@@ -82,8 +82,8 @@ VIR is a proprietary engineering and robotics project.
 The project uses separate licensing terms for its software
 and hardware designs.
 
-- **Software:** See [LICENSE-SOFTWARE.txt](SOFTWARE.txt)
-- **Hardware:** See [LICENSE-HARDWARE.txt](HARDWARE.txt)
+- **Software:** See [LICENSE-SOFTWARE.txt](LICENSE_SOFTWARE.txt)
+- **Hardware:** See [LICENSE-HARDWARE.txt](LICENSE_HARDWARE.txt)
 
 All original project materials are protected by copyright.
 All Rights Reserved.
