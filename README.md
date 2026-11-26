@@ -1,129 +1,199 @@
-# VIR – Holographic Telepresence Robot
+# VIR — AI-Powered Projection Telepresence System
 
-> Redefining remote presence through immersive virtual reality, robotics and holographic interaction.
+> Bringing digital presence to life through avatar projection, virtual reality and AI-powered movement recognition.
 
 ## 1. Project Overview
 
-VIR is a student-designed holographic telepresence robot intended to transform how people remotely interact with physical environments, particularly in workplaces and business settings.
+VIR is an AI-powered projection telepresence system designed to represent a remote user through a customizable digital avatar displayed on a designated screen.
 
-The project aims to bridge physical distance by allowing an individual to remotely operate a mobile robotic platform while experiencing its surroundings through a virtual reality headset.
+The system combines virtual reality, wearable movement sensing, artificial intelligence, avatar animation and projection technology to create a more interactive form of remote presence.
 
-Unlike conventional telepresence robots that primarily rely on screens for displaying the remote user, VIR introduces a customizable holographic human avatar designed to appear floating above the robot's main body. This avatar will serve as the visual representation of the remote operator, creating a more interactive and immersive form of remote presence.
+Users interact with VIR through a VR headset and an electronic wristband. The VR headset serves as the main control panel, allowing users to design their avatars, configure camera settings, adjust system preferences and preview their digital representation.
 
-VIR combines mechanical engineering, robotics, electronics, virtual reality, communication systems and digital graphics into one integrated platform.
+At the centre of the movement-recognition system is the **Presence Crown**, an AI-powered sensing and processing unit designed to interpret human movements and translate them into corresponding avatar actions.
 
 ## 2. The Problem
 
-Traditional remote communication tools, including video conferencing and standard telepresence systems, often limit interaction to screens and fixed camera perspectives.
+Traditional remote communication systems primarily rely on video calls, screens and conventional digital representations.
 
-This can make remote participation feel disconnected from the physical environment, particularly when someone needs to interact with people or observe activities at a different location.
+Although these technologies enable communication across distances, they do not always provide an expressive or interactive representation of the remote participant.
 
-VIR explores an alternative approach by combining physical mobility, immersive first-person viewing and holographic representation to make remote participation more interactive.
+VIR explores an alternative approach by combining projected digital avatars with movement recognition, allowing a person's movements and expressions to be represented through an animated avatar.
 
 ## 3. The Proposed Solution
 
-VIR is designed as a remotely operated wheeled robot controlled through two dedicated devices:
+VIR uses a mini projector to display a customizable 2D digital human avatar onto a designated projection screen.
 
-- **VR Headset:** Provides the remote operator with a first-person visual experience through the robot's onboard camera.
-- **Electronic Wristband:** Uses physical buttons to send movement and interaction commands to the robot.
+The remote user interacts with the system through two main interfaces:
 
-The robot will also feature an onboard microphone and speaker for two-way audio communication.
+- **VR Headset:** Acts as the main control panel for avatar design, camera configuration, system settings and visual previews.
+- **Electronic Wristband:** Captures the user's wrist movements and gestures through wearable sensing technology.
 
-Its defining feature is a customizable 3D human avatar displayed as a floating holographic representation above the main robot body. The avatar is intended to support synchronized mouth movements, facial expressions and body gestures, accompanied by the remote user's voice.
+The Presence Crown interprets movement information using AI-powered movement-recognition technology. The resulting information is used by the avatar system to reproduce the user's intended movements.
 
-## 4. Intended Features
+## 4. Main System Components
 
-### 4.1 Holographic Avatar System
-- Customizable 3D human avatar.
-- Floating visual representation above the robot's main body.
-- Synchronized mouth movements.
-- Facial expressions and animated gestures.
-- Integration with the remote operator's voice.
+### 4.1 VR Headset — Main Control Panel
 
-### 4.2 Immersive VR Control
-- VR headset integration.
-- First-person live camera feed.
-- Remote visual access to the robot's surroundings.
-- Immersive remote operation.
+The VR headset provides the main user interface for VIR.
 
-### 4.3 Electronic Wristband Controller
-- Dedicated wearable control device.
-- Physical directional buttons.
-- Forward and backward movement commands.
-- Left and right turning commands.
-- Emergency movement-stop command.
+Its intended functions include:
 
-### 4.4 Mobility System
-- Wheeled robotic platform.
-- Remote directional movement.
-- Human-controlled navigation.
-- Emergency stopping functionality.
+- Designing and customizing the digital avatar.
+- Selecting avatar appearance and animation options.
+- Viewing the avatar before projection.
+- Accessing camera feeds.
+- Adjusting supported camera resolution and viewing settings.
+- Configuring movement-recognition preferences.
+- Managing system settings.
+- Monitoring the connection between VIR components.
 
-### 4.5 Communication System
-- Integrated onboard microphone.
-- Integrated onboard speaker.
-- Two-way voice communication.
-- Wireless communication between the control devices and robot.
-- Internet-based and local-network connectivity.
+### 4.2 Presence Crown — AI Movement Recognition
 
-### 4.6 Safety Features
-- Emergency stop functionality.
-- Obstacle awareness to help identify objects in the robot's path.
+The Presence Crown is the central movement-recognition component of VIR.
 
-## 5. Intended Applications
+It is designed to contain an AI-powered movement-reading system capable of interpreting human movements and translating them into digital avatar actions.
 
-VIR is primarily envisioned for workplaces and business environments.
+The long-term ambition is to support recognition across tens of thousands of known human movements and gestures.
+
+The system is planned around two operating capabilities:
+
+**Online mode**
+- Intended to support a much broader movement vocabulary.
+- Designed for expandable AI-powered movement recognition.
+- Intended to support more advanced movement interpretation.
+
+**Offline mode**
+- Basic walking recognition.
+- Hand-gesture recognition.
+- Lip synchronization.
+
+The actual recognition capabilities will depend on the developed AI models, available sensors, training data and processing hardware.
+
+### 4.3 Electronic Wristband
+
+The wristband is a wearable input device that reads the user's movements.
+
+Its intended functions include:
+
+- Capturing wrist movement.
+- Detecting hand gestures.
+- Sending movement information to the Presence Crown and avatar system.
+- Supporting wireless communication with VIR.
+
+### 4.4 Projection System
+
+The projection system provides the visual representation of the remote user.
+
+Its intended features include:
+
+- A compact mini projector.
+- Projection onto a designated screen.
+- Display of a customizable 2D human avatar.
+- Support for animated avatar expressions and movements.
+- Integration with the avatar animation and lip-synchronization systems.
+
+The current version uses conventional 2D projection. Three-dimensional holographic projection is reserved for a future development stage.
+
+### 4.5 Avatar and Animation System
+
+The avatar system represents the remote user visually.
+
+Its intended capabilities include:
+
+- Customizable human avatar design.
+- Facial animation.
+- Movement-based animation.
+- Lip synchronization.
+- Integration with movement-recognition data.
+
+### 4.6 Lip Synchronization and Audio
+
+VIR is intended to synchronize the avatar's mouth movements with the user's speech.
+
+This will involve processing audio input and translating speech timing into corresponding avatar mouth animations.
+
+## 5. Operating Modes
+
+| Capability | Online mode | Offline mode |
+|---|---|---|
+| Walking recognition | Intended | Basic |
+| Hand gestures | Intended | Basic |
+| Lip synchronization | Intended | Basic |
+| Advanced movement recognition | Intended | Not included in the initial offline scope |
+| AI movement interpretation | Intended | Local processing for supported functions |
+
+The online movement-recognition system is intended to expand the range of recognizable movements. Its final capabilities will depend on software development and validation.
+
+## 6. Intended Applications
+
+VIR is primarily envisioned for remote interaction in workplaces, businesses and other environments where a more expressive form of digital presence could be useful.
 
 Potential applications include:
 
 - Remote workplace participation.
-- Virtual attendance at meetings and business activities.
-- Remote observation of physical environments.
-- Communication with employees and colleagues at another location.
-- Remote interaction with business facilities.
+- Virtual attendance at meetings.
+- Remote presentations.
+- Interactive communication.
+- Digital representation of remote participants.
+- Remote collaboration.
 
 These are proposed applications rather than validated deployments.
 
-## 6. Technology and Engineering
+## 7. Technology and Engineering
 
-VIR brings together several engineering disciplines:
+VIR combines several areas of technology:
 
-- Mechanical engineering and 3D CAD modelling.
-- Robotics and embedded electronics.
-- Virtual reality integration.
-- Wireless communication systems.
-- Digital avatar development and animation.
-- Audio and visual communication.
-- Firmware and software development.
+- Artificial intelligence and machine learning.
+- Computer vision and movement recognition.
+- Virtual reality.
+- Wearable electronics and sensors.
+- Digital avatar design and animation.
+- Projection technology.
+- Audio processing and lip synchronization.
+- Embedded systems and wireless communication.
+- Software and interface development.
 
-## 7. Current Development Status
+## 8. Current Development Status
 
-VIR is currently in its design and development phase.
+VIR is in its design and development phase.
 
-The mechanical CAD design is in progress, while the broader electronics, control architecture, holographic display system and software requirements are being developed.
+The current development target is a functional 2D projection-based system using a customizable avatar, VR headset control interface, electronic wristband and AI-powered Presence Crown.
 
-The features described in this document represent the intended design and functionality of VIR. They should not be interpreted as fully implemented or tested capabilities.
+The movement-recognition system, avatar software, projection integration and hardware architecture are still subject to development and testing.
 
-## 8. Project Vision
+The long-term goal of recognizing tens of thousands of movements is a development ambition, not an already demonstrated capability.
 
-The long-term vision for VIR is to create a robotic platform that makes remote participation feel more like being physically present.
+## 9. Future Development
 
-By combining immersive VR operation, wearable physical controls, mobile robotics and holographic human representation, VIR explores a new approach to remote interaction beyond conventional video communication.
+Future versions of VIR may introduce:
 
-The ultimate goal is to develop a functional holographic telepresence robot that can bring people closer to physical environments even when they cannot be there themselves.
+- A substantially expanded movement-recognition library.
+- Improved AI-based gesture and body-motion interpretation.
+- More advanced avatar animation.
+- Improved offline functionality.
+- Three-dimensional holographic projection.
+- Additional VR interface capabilities.
 
-## Licensing and Intellectual Property
+The 3D holographic display is a future advancement and is not part of the current V1 design.
 
-VIR is a proprietary engineering and robotics project.
+## 10. Project Vision
 
-The project uses separate licensing terms for its software
-and hardware designs.
+The vision behind VIR is to make remote presence more expressive by allowing people to represent themselves through customizable digital avatars.
 
-- **Software:** See [LICENSE-SOFTWARE.txt](LICENSE_SOFTWARE.txt)
-- **Hardware:** See [LICENSE-HARDWARE.txt](LICENSE_HARDWARE.txt)
+By combining VR-based control, wearable movement sensing, AI-powered movement recognition and 2D projection, VIR aims to create a new approach to remote interaction.
 
-All original project materials are protected by copyright.
-All Rights Reserved.
+Its long-term ambition is to make digital presence more natural, expressive and responsive to human movement.
 
-Third-party components and dependencies retain their
-respective licenses.
+## 11. Licensing and Intellectual Property
+
+VIR is a proprietary engineering and technology project.
+
+The project uses separate licensing terms for its software and hardware designs.
+
+- **Software:** See LICENSE-SOFTWARE LICENSE_SOFTWARE.txt.
+- **Hardware:** See LICENSE-HARDWARE LICENSE_HARDWARE.txt.
+
+All original project materials are protected by copyright. All Rights Reserved.
+
+Third-party components and dependencies retain their respective licenses.
